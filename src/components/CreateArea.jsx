@@ -30,7 +30,7 @@ function CreateArea(props) {
         <textarea 
         onClick={()=>{setExpanded(true);}}
         onChange={handleChange} 
-        name="content" placeholder="Take a note..." rows="3" value={note.content}/>
+        name="content" placeholder="Take a note..." rows={isExpanded?"3":"1"} value={note.content}/>
         <button onClick={submitNote}><AddIcon /></button>
       </form>
 

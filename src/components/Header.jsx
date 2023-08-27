@@ -1,9 +1,9 @@
 import React from "react";
-
+import HighlightIcon from '@mui/icons-material/Highlight';
 function Header() {
   return (
     <header>
-      <h1>Sticky Notes</h1>
+      <h1><HighlightIcon />  Sticky Notes</h1>
     </header>
   );
 }
